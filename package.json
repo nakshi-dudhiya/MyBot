@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.22.0",
+    "discord.js": "^13.2.0",
+    "express": "^4.17.1",
+    "yelp-api": "^1.0.3"
+  }
+}
