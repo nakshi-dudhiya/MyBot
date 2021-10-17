@@ -1,0 +1,33 @@
+"StAuth10222: I Nakshi Dudhiya, 000793267 certify that this material is my original work.
+ No other person's work has been used without due acknowledgement.
+ I have not made my work available to anyone else."
+
+MyBot
+- MyBot uses the Yelp API. It provides the information on different businesses, events 
+and category endpoints.
+It displays the various collection using different filters.
+
+1. Category(argument1) Restaurants(command) Location(argument2)
+Example: Italian Restaurants Hamilton
+It will display the names of italian restaurants found in hamilton.
+
+2. Restaurant(command) Phone(argument1)
+Example: Restaurant Phone +19053188211
+This command will search the name of the restaurant using phone number.
+
+3. Open(argument1) Gyms(command) latitude(argument2) longitude(argument3) radius(argument4)
+Example: Open Gyms 43.2387 -79.881 3000
+This command will display the Gyms that are open at the moment in the radius of 3000 of the 
+given latitude and longitude.
+
+4. Nearest(argument1) Number(argument2) Boating(command) Location(argument3)
+Example: Nearest 3 boating toronto
+This command will display 3 nearest boating places in Toronto.
+
+5. Free(argument1) popularity(argument2) event(command) location(argument3)
+Example: Free popular event burlington
+This command will display the name of the popular event in burlington which is free.
+
+6. Category(command) language(argument1)
+Example: Category Canada
+This will display the list of categories available in English Language of Canada.
